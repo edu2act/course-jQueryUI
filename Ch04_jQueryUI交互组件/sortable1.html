@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>jQuery UI Sortable Example 1</title>
+  </head>
+  <body>
+    <p>Put these DJ's in order of your preference:</p>
+    <ul id="sortables">
+      <li>BT</li>
+      <li>Sasha</li>
+      <li>John Digweed</li>
+      <li>Pete Tong</li>
+      <li>James Zabiela</li>
+    </ul>
+    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript">
+		  $(function() {
+		  
+		    //make specified element sortable
+		    $("#sortables").sortable();
+		  });
+		</script>
+  </body>
+</html>
