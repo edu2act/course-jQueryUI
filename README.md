@@ -20,6 +20,12 @@ jQuery UI 是一个建立在 jQuery JavaScript 库上的小部件和交互库，
 
 ##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](*) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Ch03_jQueryUI部件(二)/demo) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Ch03_jQueryUI部件(二)/task) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/04. Stylus/VIDEOS.md)
 
+### [04. jQueryUI交互组件](/Ch04_jQueryUI交互组件)
+
+【本章节为jQueryUI课程的第四节课，主要内容为jQueryUI交互组件，课程内容包括拖放组件、缩放组件、选择组件、排序组件等。】
+
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](*) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Ch04_jQuery交互组件/demo) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Ch04_jQuery交互组件/task) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/04. Stylus/VIDEOS.md)
+
 ## 学习资料
 
 - [视频课程有待补充](*)
