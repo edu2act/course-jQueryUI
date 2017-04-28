@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>jQuery UI Bounce Effect</title>
+    <style>
+    	#menu { position:relative; top:100px; width:275px; margin:0 auto; }
+		#menu a { float:left; height:20px; padding:2px 5px; text-decoration:none; }
+    </style>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript">
+        $(function() {      
+            $("#menu a").mouseover(function() {
+                $(this).effect("bounce");
+                //$(this).effect("bounce",{mode:"hide",direction:"left"});
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="menu">
+      <a href="#">主页</a>
+      <a href="#">关于</a>
+      <a href="#">帮助</a>
+      <a href="#">产品</a>
+      <a href="#">服务</a>
+    </div>
+</body>
+</html>

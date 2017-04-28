@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles/colorAnim.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>jQuery UI Color Animation Example</title>
+  </head>
+  <body>
+    <div>
+    	<label>Name: </label>
+    	<input type="text">
+    </div>
+    <div>
+    	<label>Age: </label>
+    	<input type="text">
+    </div>
+    <div>
+    	<label>Email: </label>
+    	<input type="text">
+    </div>
+    <button id="submit">Submit</button>
+    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript">
+			$(function() {
+				$("#submit").click(function() {
+					//检验文本框是否为空
+					$("input").each(function() {
+					
+						//为空则置成红色
+						($(this).val().length == 0) ? $(this).animate({
+							backgroundColor:"#ff9999",
+							borderTopColor:"#ff0000",
+							borderRightColor:"#ff0000",
+							borderBottomColor:"#ff0000",
+							borderLeftColor:"#ff0000"
+						}) : $(this).animate({  //不为空则置成绿色
+							borderTopColor:"#00ff00",
+							borderRightColor:"#00ff00",
+							borderBottomColor:"#00ff00",
+							borderLeftColor:"#00ff00"
+						});
+					});
+				});
+			});
+		</script>
+  </body>
+</html>

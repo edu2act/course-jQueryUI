@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>jQuery UI Blind Effect</title>
+</head>
+<body>
+    <img id="img1" src="img/sunset1.jpg" />
+</body>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#img1").effect("blind",{mode:"hide",direction:"horizontal"},2000);
+        });
+    </script>
+</html>
